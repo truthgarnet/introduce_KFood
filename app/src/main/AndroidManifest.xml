@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YoYo">
-        <activity android:name=".MainActivity" android:exported="true">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Map" android:label="map"></activity>
-        <activity android:name=".Mypage" android:label="mypage"></activity>
+        <activity android:name=".Mypage"/>
+        <activity android:name=".Map"/>
+
+
     </application>
 
 </manifest>
