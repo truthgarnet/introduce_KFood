@@ -18,7 +18,16 @@ public class Map extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
+        btn2 = (Button) findViewById(R.id.btn2);
         btn3 = (Button) findViewById(R.id.btn3);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Food.class);
+                startActivity(intent);
+            }
+        });
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
