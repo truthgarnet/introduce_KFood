@@ -8,12 +8,12 @@ import android.widget.Button;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Map extends AppCompatActivity {
+public class Food extends AppCompatActivity {
     Button btn1, btn2, btn3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.map);
+        setContentView(R.layout.food);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
