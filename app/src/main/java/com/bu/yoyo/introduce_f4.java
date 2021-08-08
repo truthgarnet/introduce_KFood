@@ -3,20 +3,15 @@ package com.bu.yoyo;
 import android.os.Bundle;
 import android.widget.Button;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class introduce_f4 extends AppCompatActivity {
+    Button login;
 
-    Button bnt1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.spalsh);
-
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
-
+        setContentView(R.layout.introduce_f4);
 
     }
 }
