@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YoYo">
-        <activity android:name=".Splash">
+        <activity android:name=".Splash"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,6 +19,11 @@
         </activity>
         <activity android:name=".Mypage"/>
         <activity android:name=".Map"/>
+        <activity android:name=".Food"/>
+        <activity android:name=".Home"/>
+        <activity android:name=".Join"/>
+        <activity android:name=".Login"/>
+
 
 
     </application>
